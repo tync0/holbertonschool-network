@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+for i in $(seq 1 6);
+do
+	ping $1
+done
+#script for ping ip
